@@ -11,7 +11,8 @@ public class RenameThisClass
         int i = 10;
         int f = 0;
         f += i;
-        int flag = f;
+        boolean flag = true;
+        flag = !flag;
         i += 1;
         System.out.println(i);
         System.out.println(f);
