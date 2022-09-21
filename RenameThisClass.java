@@ -10,8 +10,9 @@ public class RenameThisClass
     public static void main(String[] args) {
         int i = 10;
         int f = 0;
+        boolean flag = true;
         f += i;
-        int flag = f;
+        flag = !flag;
         i += 1;
         System.out.println(i);
         System.out.println(f);
