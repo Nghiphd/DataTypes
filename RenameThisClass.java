@@ -8,14 +8,10 @@
 public class RenameThisClass
 {
     public static void main(String[] args) {
-        int i = 10;
-        int f = 0;
-        boolean flag = true;
-        f += i;
-        flag = !flag;
-        i += 1;
-        System.out.println(i);
-        System.out.println(f);
-        System.out.println(flag);
+        String string1 = "I am a string";
+        String string2 = string1;
+        String string3 = "I am also a string";
+        
+        boolean stringsEqual = string1.equals(string3);
     }
 }
