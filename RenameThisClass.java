@@ -15,7 +15,8 @@ public class RenameThisClass
         for (String bruh : strarray){
             System.out.print(bruh + "-");
         }
-        for ( String i = strarray.equal(strarray); i++;) {
+        for ( int i = 0; i < strarray.length ; i++) {
+            System.out.print(strarray[i]);
         }
     }
 }
